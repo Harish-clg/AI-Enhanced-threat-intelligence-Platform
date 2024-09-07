@@ -1,0 +1,6 @@
+id,source_ip,destination_ip,protocol,port,threat_type,severity
+1,192.168.1.1,10.0.0.1,TCP,80,Safe,Low
+2,192.168.1.2,10.0.0.2,UDP,53,Safe,Low
+3,192.168.1.3,10.0.0.3,TCP,443,Safe,Medium
+4,192.168.1.4,10.0.0.4,ICMP,7,Safe,Low
+5,192.168.1.5,10.0.0.5,TCP,22,Safe,Medium
