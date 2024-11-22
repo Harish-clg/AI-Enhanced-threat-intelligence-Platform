@@ -1,7 +1,7 @@
 import requests
 import json
 
-splunk_hec_url = "https://your-splunk-server:8088/services/collector"
+splunk_hec_url = "your-splunk-server"
 splunk_hec_token = "your_hec_token"
 
 def send_to_splunk(event):
