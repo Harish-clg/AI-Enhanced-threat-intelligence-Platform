@@ -3,8 +3,8 @@ import json
 import pandas as pd
 from ml_module import predict_threat  
 
-splunk_hec_url = "http://127.0.0.1:5000"
-splunk_hec_token = "36dd2476-4abe-40ab-b571-5a9d957337ce"
+splunk_hec_url = "your splunk url"
+splunk_hec_token = "your hec token"
 file_path="D:/hackcode/data"
 def send_to_splunk(event):
     headers = {
